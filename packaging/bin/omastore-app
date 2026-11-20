@@ -1,0 +1,7 @@
+#!/bin/sh
+# GUI launcher under a name third-party apps may use. OmaStore reserves the
+# commands "omastore", "omastored" and "omastore-gui" for itself and refuses
+# to install an app whose declared executable has one of those names.
+set -eu
+here=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd -P)
+exec "$here/omastore-gui" "$@"

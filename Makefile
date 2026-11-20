@@ -107,6 +107,7 @@ release: ## Build everything in Release mode (frontend in frontend/build-release
 install: ## Install into $(DESTDIR)$(PREFIX) (after make release)
 	install -Dm755 $(BIN)/omastore  $(DESTDIR)$(PREFIX)/bin/omastore
 	install -Dm755 $(BIN)/omastored $(DESTDIR)$(PREFIX)/bin/omastored
+	install -Dm755 packaging/bin/omastore-app $(DESTDIR)$(PREFIX)/bin/omastore-app
 	DESTDIR=$(DESTDIR) $(CMAKE) --install $(RELEASE_DIR) --prefix $(PREFIX)
 	install -Dm644 packaging/desktop/omastore.desktop $(DESTDIR)$(PREFIX)/share/applications/omastore.desktop
 	install -Dm644 packaging/desktop/omastore-mark.svg $(DESTDIR)$(PREFIX)/share/icons/hicolor/scalable/apps/omastore.svg

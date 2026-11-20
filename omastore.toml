@@ -13,4 +13,6 @@ screenshots = [
 # the same name, is the executable the .desktop entry launches.
 [linux.x86_64]
 asset = "omastore-{version}-x86_64-linux.tar.gz"
-exec = "usr/bin/omastore-gui"
+# Not omastore-gui: OmaStore reserves its own command names and refuses to
+# install an app that declares one as its launcher.
+exec = "usr/bin/omastore-app"
