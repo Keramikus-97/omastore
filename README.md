@@ -86,7 +86,7 @@ packages in a `PKGBUILD`, the store can install them with pacman for you
 
 ## Installation
 
-Install from OmaStore with `omastore install Keramikus-97/omastore` (store link: `omastore://Keramikus-97/omastore`), or on Arch/Omarchy without `sudo`:
+Install or update from OmaStore with `omastore install Keramikus-97/omastore` (store link: `omastore://Keramikus-97/omastore`), or on Arch/Omarchy without `sudo`:
 
 ```sh
 curl -fsSLO https://github.com/Keramikus-97/omastore/releases/latest/download/install.sh
