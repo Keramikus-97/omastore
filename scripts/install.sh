@@ -2,7 +2,7 @@
 # Installs OmaStore into your account straight from GitHub, on a machine that
 # does not have it yet:
 #
-#   curl -fsSLO https://raw.githubusercontent.com/KitsuneSemCalda/OmaStore/dev/scripts/install.sh
+#   curl -fsSLO https://raw.githubusercontent.com/Keramikus-97/omastore/dev/scripts/install.sh
 #   sh install.sh
 #
 # With a published release, it runs that release's install.sh (prebuilt
@@ -19,7 +19,7 @@
 #   --no-hooks   do not add the Omarchy post-update hook that reports app updates
 set -eu
 
-repo_url=https://github.com/KitsuneSemCalda/OmaStore
+repo_url=https://github.com/Keramikus-97/omastore
 ref=${OMASTORE_REF:-dev}
 from_source=false
 force=false

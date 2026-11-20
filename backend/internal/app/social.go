@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/sysdeps"
+	"github.com/Keramikus-97/omastore/backend/internal/sysdeps"
 )
 
 // Starred reports whether the GitHub user (the token's owner) starred the

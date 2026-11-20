@@ -17,7 +17,7 @@ import (
 	"github.com/klauspost/compress/zstd"
 	"github.com/ulikunitz/xz"
 
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/asset"
+	"github.com/Keramikus-97/omastore/backend/internal/asset"
 )
 
 // Extraction limits, against decompression bombs.

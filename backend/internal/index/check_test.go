@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/asset"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/github"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/manifest"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/store"
+	"github.com/Keramikus-97/omastore/backend/internal/asset"
+	"github.com/Keramikus-97/omastore/backend/internal/github"
+	"github.com/Keramikus-97/omastore/backend/internal/manifest"
+	"github.com/Keramikus-97/omastore/backend/internal/store"
 )
 
 func checkOf(r *Report, item string) (Check, bool) {

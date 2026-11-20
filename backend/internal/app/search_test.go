@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/store"
+	"github.com/Keramikus-97/omastore/backend/internal/store"
 )
 
 func testApp(t *testing.T) *App {

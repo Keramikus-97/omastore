@@ -1,0 +1,16 @@
+kind = "app"
+name = "OmaStore"
+summary = "App store for Omarchy: discover, install, update and remove community apps without sudo."
+categories = ["System", "PackageManager"]
+icon = "packaging/desktop/omastore-mark.svg"
+screenshots = [
+  "docs/screenshots/catalog.png",
+  "docs/screenshots/detail.png",
+  "docs/screenshots/publish.png",
+]
+
+# The release keeps the pacman package's /usr tree; the GUI, not the CLI of
+# the same name, is the executable the .desktop entry launches.
+[linux.x86_64]
+asset = "omastore-{version}-x86_64-linux.tar.gz"
+exec = "usr/bin/omastore-gui"

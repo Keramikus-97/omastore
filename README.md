@@ -5,9 +5,9 @@
 <p align="center">Standalone apps for Omarchy, all in one place.</p>
 
 <p align="center">
-  <a href="https://github.com/KitsuneSemCalda/OmaStore/actions/workflows/ci.yml"><img src="https://github.com/KitsuneSemCalda/OmaStore/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://github.com/KitsuneSemCalda/OmaStore/releases/latest"><img src="https://img.shields.io/github/v/release/KitsuneSemCalda/OmaStore?sort=semver" alt="Latest release"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/KitsuneSemCalda/OmaStore" alt="MIT license"></a>
+  <a href="https://github.com/Keramikus-97/omastore/actions/workflows/ci.yml"><img src="https://github.com/Keramikus-97/omastore/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/Keramikus-97/omastore/releases/latest"><img src="https://img.shields.io/github/v/release/Keramikus-97/omastore?sort=semver" alt="Latest release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/Keramikus-97/omastore" alt="MIT license"></a>
   <img src="https://img.shields.io/badge/platform-Arch%20%2F%20Omarchy-1793d1" alt="Platform: Arch / Omarchy">
 </p>
 
@@ -89,14 +89,14 @@ packages in a `PKGBUILD`, the store can install them with pacman for you
 On Arch/Omarchy, without `sudo`:
 
 ```sh
-curl -fsSLO https://github.com/KitsuneSemCalda/OmaStore/releases/latest/download/install.sh
+curl -fsSLO https://github.com/Keramikus-97/omastore/releases/latest/download/install.sh
 sh install.sh
 ```
 
 For a one-line install with `curl` failure propagated by Bash:
 
 ```sh
-bash -o pipefail -c 'curl -fsSL https://github.com/KitsuneSemCalda/OmaStore/releases/latest/download/install.sh | bash'
+bash -o pipefail -c 'curl -fsSL https://github.com/Keramikus-97/omastore/releases/latest/download/install.sh | bash'
 ```
 
 The script downloads the latest stable release for Linux x86_64, checks the SHA-256
@@ -132,7 +132,7 @@ sh install.sh --uninstall
 it, besides removing a `make install` from `/usr/local`.
 
 If you prefer to manage the application with pacman, download the `PKGBUILD`
-attached to the [latest release](https://github.com/KitsuneSemCalda/OmaStore/releases/latest)
+attached to the [latest release](https://github.com/Keramikus-97/omastore/releases/latest)
 (package `omastore-bin`) and run:
 
 ```sh
@@ -146,7 +146,7 @@ script. It requires Go, a C compiler, CMake, Ninja and Qt 6 (see
 [Development](#development)):
 
 ```sh
-git clone https://github.com/KitsuneSemCalda/OmaStore
+git clone https://github.com/Keramikus-97/omastore
 cd OmaStore
 make dist VERSION=v0.1.1-dev
 sh packaging/install.sh dist/omastore-0.1.1-dev-x86_64-linux.tar.gz
@@ -155,7 +155,7 @@ sh packaging/install.sh dist/omastore-0.1.1-dev-x86_64-linux.tar.gz
 Or with pacman, building the `omastore-git` package from `master`:
 
 ```sh
-git clone https://github.com/KitsuneSemCalda/OmaStore
+git clone https://github.com/Keramikus-97/omastore
 cd OmaStore/packaging/arch
 makepkg -si
 systemctl --user enable --now omastored.socket       # optional: on-demand daemon

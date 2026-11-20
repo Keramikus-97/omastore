@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/asset"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/store"
+	"github.com/Keramikus-97/omastore/backend/internal/asset"
+	"github.com/Keramikus-97/omastore/backend/internal/store"
 )
 
 func skipIfRoot(t *testing.T) {

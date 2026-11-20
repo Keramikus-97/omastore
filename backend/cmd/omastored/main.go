@@ -12,9 +12,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/app"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/logging"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/rpc"
+	"github.com/Keramikus-97/omastore/backend/internal/app"
+	"github.com/Keramikus-97/omastore/backend/internal/logging"
+	"github.com/Keramikus-97/omastore/backend/internal/rpc"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/flock"
+	"github.com/Keramikus-97/omastore/backend/internal/flock"
 )
 
 // ErrBusy means another process is already indexing.

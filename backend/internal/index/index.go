@@ -16,12 +16,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/asset"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/github"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/gitrepo"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/manifest"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/store"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/sysdeps"
+	"github.com/Keramikus-97/omastore/backend/internal/asset"
+	"github.com/Keramikus-97/omastore/backend/internal/github"
+	"github.com/Keramikus-97/omastore/backend/internal/gitrepo"
+	"github.com/Keramikus-97/omastore/backend/internal/manifest"
+	"github.com/Keramikus-97/omastore/backend/internal/store"
+	"github.com/Keramikus-97/omastore/backend/internal/sysdeps"
 )
 
 // Version is the version of the extraction and classification logic. Bump it

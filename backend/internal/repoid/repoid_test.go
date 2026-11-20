@@ -19,8 +19,8 @@ func TestSplit(t *testing.T) {
 			t.Errorf("%q rejected: %v", good, err)
 		}
 	}
-	o, r, err := Split("KitsuneSemCalda/OmaStore")
-	if err != nil || o != "KitsuneSemCalda" || r != "OmaStore" {
+	o, r, err := Split("Keramikus-97/omastore")
+	if err != nil || o != "Keramikus-97" || r != "omastore" {
 		t.Errorf("split = %q %q %v", o, r, err)
 	}
 }

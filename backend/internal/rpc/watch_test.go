@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/index"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/install"
+	"github.com/Keramikus-97/omastore/backend/internal/index"
+	"github.com/Keramikus-97/omastore/backend/internal/install"
 )
 
 // stampBackend is a backend whose database another process can change.

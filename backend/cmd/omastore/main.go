@@ -17,14 +17,14 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/app"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/index"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/install"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/logging"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/manifest"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/notify"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/store"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/sysdeps"
+	"github.com/Keramikus-97/omastore/backend/internal/app"
+	"github.com/Keramikus-97/omastore/backend/internal/index"
+	"github.com/Keramikus-97/omastore/backend/internal/install"
+	"github.com/Keramikus-97/omastore/backend/internal/logging"
+	"github.com/Keramikus-97/omastore/backend/internal/manifest"
+	"github.com/Keramikus-97/omastore/backend/internal/notify"
+	"github.com/Keramikus-97/omastore/backend/internal/store"
+	"github.com/Keramikus-97/omastore/backend/internal/sysdeps"
 )
 
 const usage = `usage: omastore [-v] <command> [options]

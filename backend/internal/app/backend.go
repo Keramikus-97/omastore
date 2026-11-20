@@ -3,9 +3,9 @@ package app
 import (
 	"context"
 
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/index"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/install"
-	"github.com/KitsuneSemCalda/OmaStore/backend/internal/store"
+	"github.com/Keramikus-97/omastore/backend/internal/index"
+	"github.com/Keramikus-97/omastore/backend/internal/install"
+	"github.com/Keramikus-97/omastore/backend/internal/store"
 )
 
 // Methods that make *App an rpc.Backend.
